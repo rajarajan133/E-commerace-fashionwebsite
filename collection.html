@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--My css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>Nosttra</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+
+    <!--side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+
+    <!--Product-->
+
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+        </form>
+
+        <div class="products" id="products">
+            <div class="products-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSScX0VGUHNvWyZUmMuzPUC7jwqogLwz0V7Rw&s"
+                    alt="">
+                <p>white shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-xTM6a4JQFxXGk2F1j86VQykAXNTqd6_m5Q&s"
+                    alt="">
+                <p>Black shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmGJAXZMEdofar-hsE2XKGBtzZXaXQ7qkVqg&s"
+                    alt="">
+                <p>Red shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://cpimg.tistatic.com/8199789/s/4/mens-slim-fit-solid-dark-sea-green-shirt.jpg" alt="">
+                <p>Green shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="https://static.wixstatic.com/media/7920a6_26f61020e9ea4a7c826768311bdab56e~mv2.jpg/v1/fill/w_480,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/7920a6_26f61020e9ea4a7c826768311bdab56e~mv2.jpg"
+                    alt="">
+                <p>Gray shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUb92s5Y8ONhf-KytqosdOghDKhIjb6IBzkA&s"
+                    alt="">
+                <p>Blue shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMU-M6p9Q6QFaz85hsxo-mytfRokJLPaFvFA&s"
+                    alt="">
+                <p>Orange shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://s.alicdn.com/@sc04/kf/H724c9548212a438ea657aa1beff1e9c5j.jpg_720x720q50.jpg" alt="">
+                <p>Yellow shirt</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>Fashion is a term used interchangeably to describe the creation of clothing, footwear, accessories,
+                    cosmetics, and jewellery of different cultural .</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #fff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #fff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #fff;"></i>
+                </div>
+
+            </div>
+
+        </div>
+        <p>@ 2025 Nostra.com</p>
+    </div>
+    <script src="collection.js"></script>
+</body>
+
+</html>
